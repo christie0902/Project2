@@ -1,0 +1,75 @@
+* {
+    margin:0;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    color: white;
+    background-color: #444444;
+}
+
+img {
+width: 500px;
+opacity: 0.5;
+display: block;
+margin: auto;
+margin-top: 30px;
+margin-bottom: 20px;
+}
+
+img:hover {
+    opacity: 1;
+}
+
+a {
+    color: rgba(255, 245, 253, 0.5);
+}
+
+a:hover {
+    color: white;
+}
+
+button {
+    border: 0.5px solid white;
+    background-color: black;
+    padding: 10px;
+    display: block;
+    width: 20%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.list {
+    width: 15%;
+    margin: auto;
+    line-height: 30px;
+}
+
+h1, p, h2 {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 30px;
+}
+
+.top-5__header {
+    color: blue;
+    font-size: 1.2rem;
+    background-color: white;
+}
+
+.top-5__header.top-5__header--colorized {
+    color: pink;
+    font-size: 2rem;
+}
+
+.hiddenText {
+    position: absolute;
+    opacity: 0;
+}
+
+.hiddenText-show {
+    position: static;
+    opacity: 1;
+}
